@@ -1,5 +1,5 @@
 {% set name = "llama-index-instrumentation" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/llama_index_instrumentation-{{ version }}.tar.gz
-  sha256: ae8333522487e22a33732924a9a08dfb456f54993c5c97d8340db3c620b76f13
+  sha256: 77741c1d9861ead080e6f98350625971488d1e046bede91cec9e0ce2f63ea34a
 
 build:
   noarch: python
