@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: llama-index-instrumentation
-  version: "0.3.1"
+  version: "0.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/llama_index_instrumentation-${{ version }}.tar.gz
-  sha256: d7c1a9d5e4c2bf9603fc0d3609f939d88c8d61eb803f2c463d61cb62b0dcd0c6
+  sha256: f38ecc1f02b6c1f7ab84263baa6467fac9f86538c0ee25542853de46278abea7
 
 build:
   number: 0
