@@ -5,7 +5,7 @@
 
 [workspace]
 name = "llama-index-instrumentation-feedstock"
-version = "3.55.1"  # conda-smithy version used to generate this file
+version = "3.56.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/llama-index-instrumentation-feedstock"
 authors = ["@conda-forge/llama-index-instrumentation"]
 channels = ["conda-forge"]
